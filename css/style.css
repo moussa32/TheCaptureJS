@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+body,html,h1{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #ddd;
+    color: #292929;
+    height: 4rem;
+    line-height: 2.5;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+main{
+    width:600px;
+    margin:0 auto;
+    text-align:center;
+    background: #ecf0f1;
+    padding-bottom:1rem;
+    box-shadow: 0 0 6px 2px #ddd;
+}
+video{
+    width: 100%;
+}
+button{
+    width: 11rem;
+    height: 2rem;
+    font-size: .9rem;
+}
+#StrRecordeing{
+    background: #2ecc71;
+    color: #fff;
+    border: 3px #27ae60 solid;
+    border-radius: 4px;
+}
+#StoRecordeing{
+    background: #e74c3c;
+    color: #fff;
+    border: 3px #c0392b solid;
+    border-radius: 4px;
+}
+#savedClipe{
+    display: none;
+}
+#options{
+    background: #ecf0f1;
+    margin-top: .5rem;
+}
+@media screen and (max-width:450px){
+    main{
+        width: 87%;
+    }
+    button{
+        display: block;
+        width: 90%;
+        margin:0 auto;
+        font-size: 85%;
+    }
+    #StoRecordeing{
+        margin-top: .7rem;
+    }
+}
+@media (min-width: 451px) and (max-width:650px){
+    main{
+        width: 400px;
+    }
+    button{
+        width: 40%;
+        height: 2rem;
+        font-size: .8rem;
+    }
+}
